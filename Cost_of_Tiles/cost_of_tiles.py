@@ -22,6 +22,6 @@ def val_input():
 #Function to calculate the total cost of tiles and print it.
 def calc(data):
     price = data[0] * data[1] * data[2]
-    print(f'The total price to cover a {data[1]} x {data[2]} floor is {price}')
+    print(f'The total price to cover a {data[1]:.2f} x {data[2]:.2f} floor is {price:.2f}')
 
 calc(val_input())
