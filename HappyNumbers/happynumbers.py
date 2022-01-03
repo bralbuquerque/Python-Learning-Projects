@@ -25,7 +25,6 @@ def get_numbers():
     return num
 
 # Define function to split a number into its digits on a list
-
 def split_num(num):
 
     digits = []
